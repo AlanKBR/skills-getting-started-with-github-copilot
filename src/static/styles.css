@@ -90,10 +90,13 @@ section h3 {
   font-size: 14px;
   padding: 5px;
   border-bottom: 1px solid #ddd;
+  background-color: #ffffff; /* Background for each participant */
+  border-radius: 3px; /* Rounded corners for participant items */
+  transition: background-color 0.2s; /* Smooth hover effect */
 }
 
-.activity-card ul li:last-child {
-  border-bottom: none;
+.activity-card ul li:hover {
+  background-color: #e3f2fd; /* Highlight on hover */
 }
 
 .form-group {
